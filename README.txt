@@ -21,6 +21,9 @@ you're adding, and VANILLA.lmp, which contains all the animations in vanilla.
 Since Boom loads only the most recent ANIMATED lump and they aren't cumulative,
 it's necessary to include the vanilla animations in the lump in this way.
 
+Input and output paths can be specified using the -i and -o arguments. For
+example: `python animated.py -i myanims.json vanilla.lmp -o myanims.lmp`.
+
 The default output path is ANIMATED.lmp. The outputted lmp should be added to a
 wad using a utility such as Slade.
 
